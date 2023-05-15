@@ -1,0 +1,62 @@
+.encabezado{
+  width: 100%;
+  background: purple;
+}
+
+.titulo-principal{
+  text-align: center;
+  margin: 50px;
+  font-size: 45px;
+  display: inline;
+  vertical-align: 40px;
+  color: #ffffff;
+  font-family: 'VT323', monospace;
+  padding: 0 0 0 100px;
+}
+
+.imagen-computador{
+  width: 7em;
+  padding: 0 0 0 350px;
+}
+
+/* footer */
+footer{
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background: purple;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.imagen-corazon{
+  width: 1em;
+  transition: 1s all;
+}
+
+.imagen-corazon:hover{
+  transform: rotate(360deg);
+}
+
+.imagen-github{
+  padding: 30px 0 20PX 0;
+  width:3em;
+  transition: 1s all;
+}
+
+.imagen-github:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.imagen-discord{
+  width: 3em;
+  padding: 0 0 20px 40px;
+  transition: 1s all;
+}
+
+.imagen-discord:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
