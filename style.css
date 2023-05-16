@@ -3,6 +3,10 @@
   background: purple;
 }
 
+.color-fondo{
+  background: linear-gradient(white 5%, purple);
+}
+
 .titulo-principal{
   text-align: center;
   margin: 50px;
