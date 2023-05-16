@@ -25,6 +25,11 @@
 
 }
 
+.cajas{
+  display: flex;
+  
+}
+
 .text-area{
   font-family: 'Jura', sans-serif;
   font-size: 30px;
@@ -72,6 +77,11 @@
 
 .boton-desencriptar:hover{
   transform: scale(1.2);
+}
+
+.text-mensaje{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
 }
 
 /* footer */
