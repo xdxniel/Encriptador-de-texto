@@ -24,6 +24,11 @@
   padding: 0 0 20px 40px;
 }
 
+.text-area{
+  font-family: 'Jura', sans-serif;
+  font-size: 30px;
+}
+
 /* footer */
 footer{
   font-family: 'Caveat', cursive;
@@ -31,7 +36,6 @@ footer{
   text-align: center;
   padding: 20px 0 20px 0;
   background: purple;
-  margin-top: 20px;
   color: #ffffff;
 }
 
