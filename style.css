@@ -56,7 +56,17 @@ footer{
   transition: 1s all;
 }
 
+.mensaje{
+  font-size: 25px;
+  display: none
+}
+
 .imagen-discord:hover{
   transform: scale(1.5);
   cursor: pointer;
+ 
+}
+
+.imagen-discord:active + .mensaje{
+  display: block;
 }
