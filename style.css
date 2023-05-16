@@ -30,6 +30,12 @@
   font-size: 30px;
 }
 
+.informacion{
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+  color: purple;
+}
+
 .botones{
   display: flex;
   margin: 10px 10px 10px 30px;
