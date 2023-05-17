@@ -158,7 +158,8 @@ footer h2{
 }
 
 .mensaje{
-  font-size: 25px;
+  font-size: 22px;
+  text-align: center;
   display: none
 }
 
