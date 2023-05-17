@@ -14,6 +14,11 @@
   padding: 0 0 0 100px;
 }
 
+.imagenes-encabezado{
+  display: inline;
+  width: 100%;
+}
+
 .imagen-computador{
   width: 7em;
   padding: 0 0 0 350px;
@@ -115,10 +120,13 @@
 footer{
   font-family: 'Caveat', cursive;
   font-size: 25px;
-  text-align: center;
   padding: 20px 0 20px 0;
   background: purple;
   color: #ffffff;
+}
+
+footer h2{
+  text-align: center;
 }
 
 .imagen-corazon{
@@ -134,6 +142,7 @@ footer{
   padding: 30px 0 20PX 0;
   width:3em;
   transition: 1s all;
+  margin: 0 0 0 500px;
 }
 
 .imagen-github:hover{
@@ -145,6 +154,7 @@ footer{
   width: 3em;
   padding: 0 0 20px 40px;
   transition: 1s all;
+  margin: 0 0 0 150px;
 }
 
 .mensaje{
@@ -160,4 +170,70 @@ footer{
 
 .imagen-discord:active + .mensaje{
   display: block;
+}
+
+@media screen and (max-width:480px){
+  .encabezado{
+    width: auto;
+    display: block;
+  }
+
+  .titulo-principal{
+    font-size: auto;
+    margin: 10px 15px;
+    padding: 0;
+  }
+
+  .imagen-computador{
+    padding: 0 0 0 70px;
+    margin: 0;
+  }
+
+  .imagen-alura{
+    padding: 20px 20px;
+    margin: 0;
+  }
+
+  .cajas{
+    display: block;
+  }
+
+  .text-area, .text-mensaje{
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .informacion{
+    padding: 5px 0 5px 0;
+    font-size: auto;
+    text-align: center;
+  } 
+
+  .botones{
+    margin: 5px 0 30px 30px;
+  }
+
+  .boton-encriptar, .boton-desencriptar{
+    margin: 0 25px 0 20px;
+  }
+  
+  .boton-copiar{
+    margin: 20px 50px;
+  }
+
+  footer h2{
+    text-align: center;
+    margin: 5px 0 20px 0;
+  }
+
+  .imagen-github{
+    margin: 0 50px;
+    padding: 0 5px;
+  }
+
+  .imagen-discord{
+    margin: 0 50px;
+    padding: 0 5px;
+  }
 }
